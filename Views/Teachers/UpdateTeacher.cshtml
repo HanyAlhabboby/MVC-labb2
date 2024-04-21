@@ -1,0 +1,10 @@
+﻿@model Teacher
+
+
+<h2>Uppdatera Lärarens namn för programmering A</h2>
+<div>
+    <form asp-action="UpdateTeacher" method="post">
+        <input asp-for="TeacherName" class="form-control" style="width: 200px" />
+        <button type="submit" class="btn btn-primary" style="margin-top:15px">Spara</button>
+    </form>
+</div>

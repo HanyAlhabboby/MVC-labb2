@@ -1,0 +1,9 @@
+﻿@model Course
+
+<h2>Uppdatera kursen för programmering B</h2>
+<div>
+    <form asp-action="UpdateCourse" method="post">
+        <input asp-for="CourseName" class="form-control" style="width: 200px" />
+        <button type="submit" class="btn btn-primary" style="margin-top:15px">Spara</button>
+    </form>
+</div>
